@@ -12,8 +12,9 @@ public class PruebaSpringApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PruebaSpringApplication.class, args);
-
+		logger.info("Proyecto iniciado");
 		logger.debug("Mi mensaje debug");
+                
 		}
 
 	}
